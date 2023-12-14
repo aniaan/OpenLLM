@@ -25,7 +25,7 @@ class PhiConfig(openllm_core.LLMConfig):
     'backend': ('pt', 'vllm'),
     'default_id': 'microsoft/phi-1_5',
     'serialisation': 'safetensors',
-    'model_ids': ['microsoft/phi-1_5'],
+    'model_ids': ['microsoft/phi-1_5', 'microsoft/phi-2'],
     'fine_tune_strategies': (
       {'adapter_type': 'lora', 'r': 64, 'lora_alpha': 16, 'lora_dropout': 0.1, 'bias': 'none'},
     ),
